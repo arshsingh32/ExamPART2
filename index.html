@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div class="navBarItems">
+            <h1>Gaming<span>Dojo</span></h1>
+            <div class="justify">
+                <form>
+                    <select>
+                        <option value="Euro€"> Euro€
+                        </option>
+                        <option value="Dollar$"> Dollar$
+                        </option>
+                        <option value="Pound£"> Pound£
+                        </option>
+                        <option value="Rupees₹"> Rupees₹
+                        </option>
+                    </select>
+                </form>
+                <img src="images/cart-light.png" alt="pic1" >
+               <u><p class="zero">0</p></u>
+                <img class = "searchMargin" src="images/search-light.png" alt="pic2" >
+            </div>
+        </div>
+    <div id="container">
+        </div>
+        <div>
+            <div id="highlights">
+                <p class = "marginHighlight">Highlights</p>
+                <div class="mySlides">
+                    <span class="arrow leftArrow" onclick="changeImageleft()">&#60;</span>
+                    <img id = "slider" src="images/stonepunk.png" alt="pic3" >
+                    <span class="arrow rightArrow" onclick="changeImageRight()">&#62;</span>
+                </div>
+                <div class= "flexbar">
+                <div class= "bar1"></div>
+                <div class= "bar2" id= "barr"></div>
+                <div class= "bar3"></div>
+                <div class= "bar4"></div>
+                </div>
+            </div>
+            <div>
+                <div id="threeBoxes">
+                    <div class="box1">
+                        <div class="display">
+                            <img src="images/cafe-neko.png" class="target" alt="pic4" >
+                            <h3>Cafe Neko: Gold Edition</h3>
+                            <img src="images/windows.png" alt="pic5"  class="icon">
+                            <img src="images/apple.png" alt="pic6" class="icon">
+                            <p class= "move2"><s>€14.98</s></p>
+                            <div class="lastLine">
+                                <p class="oneButton">-20%</p>
+                                <p class= "move">€10.49</p>
+                                <button onclick="addingNumbers()">Buy
+                                </button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="box1">
+                        <div class="display">
+                            <img src="images/pixel-ninjas-2.png" alt="pic7" class="target">
+                            <h3>Pixel Ninjas 2</h3>
+                            <img src="images/windows.png" alt="pic8"  class="icon">
+                            <img src="images/apple.png" alt="pic9" class="icon">
+                            <p class = "move2"><s>€8.19</s></p>
+                            <div class="lastLine">
+                                <p class="oneButton">-10%</p>
+                                <p class= "move">€7.39</p>
+                                <button onclick ="addingNumbers()">Buy
+                                </button>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="box1">
+                        <div class="display">
+                            <img src="images/stonepunk.png" alt="pic10" class="target">
+                            <h3>Stonepunk 10000 BCE</h3>
+                            <img src="images/windows.png" alt="pic11" class="icon">
+                            <img src="images/apple.png" alt="pic12" class="icon">
+                            <img src="images/linux.png" alt="pic13" class="icon" id="penguin" onclick="penguinTouch()">
+                            
+                            <div class="lastLine">
+                                <p class="oneButton">NEW</p>
+                                <p class= "move">€19.99</p>
+                                <button onclick ="addingNumbers()">Buy </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+            <script src="main.js"></script>
+
+</body>
+
+</html>

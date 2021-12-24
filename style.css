@@ -1,0 +1,133 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 1200px;
+    margin: auto;
+
+}
+#navbar {
+    background-color: black;
+    height: 65px;
+    border-top: 10px solid purple;
+}
+.mySlides{
+    margin-left: 40px;
+    padding: 50px;
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+
+}
+.arrow{
+    font-size: 50px;
+    color: black;
+}
+.rightArrow{
+  margin-left: 20px;
+}
+.leftArrow{
+margin-right: 20px;
+}
+.navBarItems{
+    display: flex;
+    justify-content: space-around;
+}
+.justify{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+
+}
+h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: -165px;
+}
+span{
+    color: purple;
+}
+.target{
+    height:130px;
+    width:250px;
+}
+.icon{
+    width: 25px;
+}
+.lastLine{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-color: white;
+    padding: 10px;
+    width: 210px;
+
+}
+button{
+    background-color: green;
+    height: 40px;
+    width: 50px;
+
+}
+
+.oneButton {
+    background-color: purple;
+    color: white;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    line-height: 40px;;
+}
+#threeBoxes {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 170px;
+}
+.zero {
+    color: white;
+    margin-top: 20px;
+}
+form {
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.searchMargin {
+    margin-left: 40px;
+}
+.marginHighlight{
+ margin-top: 50px;
+ margin-left: 140px;
+ font-weight: bold;
+}
+.move{
+    margin-top: 15px;
+    font-weight: bold;
+}
+.move2 {
+    margin-left: 90px;
+}
+.bar1,.bar2,.bar3,.bar4 {
+    background-color: darkgray;
+    height: 12px;
+    width: 60px;
+}
+#barr{
+    background-color: purple;
+    height: 12px;
+    width: 60px;
+    margin-right: 70px;
+}
+.flexbar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+    line-height:0.9em;
+}
+.bar3{
+    margin-right: 90px;
+}
+.bar4{
+    margin-right: 120px;
+}
